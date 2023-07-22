@@ -1,0 +1,4 @@
+install:
+	poetry install
+brain-games:
+     ptry run brain-games
