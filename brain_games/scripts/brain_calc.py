@@ -39,15 +39,3 @@ def main():
 
 if __name__ == '__main__':
     main()
-
-
-
-
-
-
-
-#random_num1 = randint(1, 100)
-#random_num2 = randint(1, 100)
-#expressions =(add, sub, mul)
-#exp_random = choice(expressions)
-#print(exp_random(random_num1, random_num2))
