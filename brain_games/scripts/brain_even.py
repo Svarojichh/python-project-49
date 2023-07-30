@@ -16,7 +16,7 @@ def main():
 
     for i in range(1, 4):
         if random_num % 2 == 0 and user_resp == 'yes' \
-                                or random_num % 2 != 0 and user_resp == 'no':
+                or random_num % 2 != 0 and user_resp == 'no':
             print('Correct!')
             if i == 3:
                 print(f'Congratulations, {name}!')
