@@ -1,7 +1,6 @@
 #!/usr/bin/env python3
 
 from random import randint
-from sympy import isprime
 import prompt
 from brain_games import greeting
 
@@ -11,7 +10,11 @@ def main():
     print('Answer "yes" if given number is prime. Otherwise answer "no".')
     random_num = randint(1, 100)
     print('Question:', random_num)
-    if isprime(random_num):
+    k = 0
+    for i in range(2, random_num // 2+1):
+        if (random_num % i == 0):
+            k = k+1
+    if (k <= 0):
         result = "yes"
     else:
         result = "no"
@@ -27,7 +30,11 @@ def main():
                 break
             random_num = randint(1, 100)
             print('Question:', random_num)
-            if isprime(random_num):
+            k = 0
+            for i in range(2, random_num // 2+1):
+                if (random_num % i == 0):
+                    k = k+1
+            if (k <= 0):
                 result = "yes"
             else:
                 result = "no"
