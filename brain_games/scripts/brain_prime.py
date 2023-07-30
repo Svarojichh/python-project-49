@@ -3,6 +3,7 @@
 from random import randint
 import prompt
 from brain_games import greeting
+from brain_games import prime
 
 
 def main():
@@ -10,14 +11,7 @@ def main():
     print('Answer "yes" if given number is prime. Otherwise answer "no".')
     random_num = randint(1, 100)
     print('Question:', random_num)
-    k = 0
-    for i in range(2, random_num // 2+1):
-        if (random_num % i == 0):
-            k = k+1
-    if (k <= 0):
-        result = "yes"
-    else:
-        result = "no"
+    result = prime.prime(random_num)
     # print(result)  # тестовый правельный ответ
     user_resp = prompt.string()
     print('Your answer:', user_resp)
@@ -30,14 +24,7 @@ def main():
                 break
             random_num = randint(1, 100)
             print('Question:', random_num)
-            k = 0
-            for i in range(2, random_num // 2+1):
-                if (random_num % i == 0):
-                    k = k+1
-            if (k <= 0):
-                result = "yes"
-            else:
-                result = "no"
+            result = prime.prime(random_num)
             # print(result)  # тестовый правельный ответ
             user_resp = prompt.string()
             print('Your answer:', user_resp)
