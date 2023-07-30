@@ -25,14 +25,17 @@ def main():
             user_resp = prompt.string()
             print('Your answer:', user_resp)
         elif (random_num % 2 != 0 and user_resp == 'yes'):
-            print(f"'yes' is wrong answer ;(. Correct answer was 'no'.\nLet's try again, {name}!")
+            print("'yes' is wrong answer ;(. Correct answer was 'no'.")
+            print(f"Let's try again, {name}!")
             break
         elif (random_num % 2 == 0 and user_resp == 'no'):
-            print(f"'no' is wrong answer ;(. Correct answer was 'yes'.\nLet's try again, {name}!")
+            print("'no' is wrong answer ;(. Correct answer was 'yes'.")
+            print(f"Let's try again, {name}!")
             break
         else:
             print('Warning! Enter "yes" or "no".')
             break
+
 
 if __name__ == '__main__':
     main()
