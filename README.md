@@ -10,3 +10,5 @@
 [![asciicast](https://asciinema.org/a/gdpfHuzlCGYBbVOv4PQ5GZn7l.svg)](https://asciinema.org/a/gdpfHuzlCGYBbVOv4PQ5GZn7l)
 ### test game brain-progression:
 [![asciicast](https://asciinema.org/a/M9o5xquSuUj7bP1YcZJB1QL8x.svg)](https://asciinema.org/a/M9o5xquSuUj7bP1YcZJB1QL8x)
+### test game brain-prime:
+[![asciicast](https://asciinema.org/a/8dOXaeQSi6KjgydcHusyhqM4s.svg)](https://asciinema.org/a/8dOXaeQSi6KjgydcHusyhqM4s)
