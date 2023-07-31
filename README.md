@@ -29,7 +29,7 @@ Poetry
     cd python-project-49/
     poetry install (make install)
     poetry build (make build)
-    python -m pip install --user dist/*.whl (make package-install)
+    python3 -m pip install --user dist/*.whl (make package-install)
 
 ### Команды для вызова игр
 
