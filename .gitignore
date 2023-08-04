@@ -1,1 +1,6 @@
 .venv/
+.idea/
+dist/
+_pycache_/
+Makefile.save
+pyproject.toml.save

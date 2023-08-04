@@ -17,11 +17,11 @@
 
 ### Необходимые требования
 
-Python 3.10, 
+Python 3.10,
 Poetry
 
 ### Установка
-   
+
     git clone git@github.com:Svarojichh/python-project-49.git
 
 >>
